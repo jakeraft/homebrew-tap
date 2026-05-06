@@ -4,12 +4,12 @@ cask "clier" do
 
   on_macos do
     on_intel do
-      sha256 "01aab0e991d9d0d816eafc7ce2ead671bf123226935cebec276782e7a79f6467"
+      sha256 "6e51ebc289ac54103aa0dd3d26c38e9b0939db8cb5262bd277ad14e62f33e96d"
       url "https://github.com/jakeraft/clier/releases/download/v#{version}/clier_darwin_amd64.tar.gz",
         verified: "github.com/jakeraft/clier"
     end
     on_arm do
-      sha256 "430f2ea47f553fe86e70fd283a0450b28c05bf39c00943641d182cd6ed1b4de8"
+      sha256 "0bb41e6e976b4dd587facb8b54fc25cb87ba89e5f47c20217532e3c5d2ac9a8a"
       url "https://github.com/jakeraft/clier/releases/download/v#{version}/clier_darwin_arm64.tar.gz",
         verified: "github.com/jakeraft/clier"
     end
